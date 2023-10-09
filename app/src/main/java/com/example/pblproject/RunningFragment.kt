@@ -1,4 +1,3 @@
-
 package com.example.pblproject
 
 import android.content.Intent
@@ -17,6 +16,11 @@ class RunningFragment : Fragment() {
     ): View? {
         val rootView = inflater.inflate(R.layout.activity_main_home, container, false)
 
+        val button = rootView.findViewById<View>(R.id.button_logout)
+        button.setOnClickListener{
+            val intent = Intent(activity, MainActivity::class.java)
+            startActivity(intent)
+        }
         // Find the card view by its ID
         val cardView = rootView.findViewById<View>(R.id.card_view_pulse_rate)
 
@@ -26,7 +30,6 @@ class RunningFragment : Fragment() {
             val intent = Intent(activity, BluetoothConnectionActivity::class.java)
             startActivity(intent)
         }
-
         return rootView
     }
 }

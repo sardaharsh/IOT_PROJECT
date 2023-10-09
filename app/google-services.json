@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593550163187",
+    "project_id": "healtomete",
+    "storage_bucket": "healtomete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593550163187:android:bab7bfe45cebca6295cb86",
+        "android_client_info": {
+          "package_name": "com.example.pblproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593550163187-gdttnpatms5e7454tcfu210lejjrg0gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFiUwWMlNS6QTCDgQOWvyCBRSUA1XEaTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593550163187-gdttnpatms5e7454tcfu210lejjrg0gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
