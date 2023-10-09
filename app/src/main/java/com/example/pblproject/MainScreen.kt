@@ -23,7 +23,7 @@ class MainScreen : AppCompatActivity(), BottomNavigationView.OnNavigationItemSel
 
     private fun onHomeClicked() {
         supportFragmentManager.commit {
-            replace(R.id.frame_content, RunningFragment())
+            replace(R.id.frame_content, HomeFragment())
         }
     }
 

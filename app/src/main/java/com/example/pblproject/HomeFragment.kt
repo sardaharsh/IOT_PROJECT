@@ -6,8 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
-class RunningFragment : Fragment() {
+class HomeFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -18,16 +20,23 @@ class RunningFragment : Fragment() {
 
         val button = rootView.findViewById<View>(R.id.button_logout)
         button.setOnClickListener{
+            Firebase.auth.signOut()
             val intent = Intent(activity, MainActivity::class.java)
             startActivity(intent)
         }
         // Find the card view by its ID
-        val cardView = rootView.findViewById<View>(R.id.card_view_pulse_rate)
+        val cardViewPulseRate = rootView.findViewById<View>(R.id.card_view_pulse_rate)
+        val cardViewTemperature = rootView.findViewById<View>(R.id.card_view_temperature)
 
         // Set an OnClickListener to the card view
-        cardView.setOnClickListener {
+        cardViewPulseRate.setOnClickListener {
             // Start the new activity here
-            val intent = Intent(activity, BluetoothConnectionActivity::class.java)
+            val intent = Intent(activity, PulseRateActivity::class.java)
+            startActivity(intent)
+        }
+        cardViewTemperature.setOnClickListener {
+            // Start the new activity here
+            val intent = Intent(activity, Temperature::class.java)
             startActivity(intent)
         }
         return rootView

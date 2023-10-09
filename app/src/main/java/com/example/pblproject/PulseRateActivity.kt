@@ -16,7 +16,7 @@ import java.io.IOException
 import java.io.InputStream
 import java.util.*
 
-class BluetoothConnectionActivity : AppCompatActivity() {
+class PulseRateActivity : AppCompatActivity() {
 
     private val BLUETOOTH_PERMISSION_REQUEST = 1
     private val HC05_MAC_ADDRESS = "98:D3:71:F5:DF:26" // Replace with your HC-05's MAC address
@@ -28,7 +28,7 @@ class BluetoothConnectionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bluetooth_connection)
+        setContentView(R.layout.activity_pulse_rate)
 
         textDisplay = findViewById(R.id.text)
 
