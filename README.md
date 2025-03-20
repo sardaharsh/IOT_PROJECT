@@ -1,4 +1,4 @@
-#Healthometer - An Infant Monitoring System
+# Healthometer - An Infant Monitoring System
 
 **📌 Overview**
 
@@ -20,17 +20,14 @@ Healthometer is a smart health monitoring system designed to track the vital hea
 5. Firewall Authentication Module
 6. ML model predicts Respiratory diseases using audio recordings.
 
-#🛠️ Tech Stack
+**🛠️ Tech Stack**
 
-**Frontend**: HTML, CSS, JavaScript, Bootstrap
-**Backend**: Python (Flask/Django)
-**Database**: MySQL/MongoDB
-**Hardware**: Temperature sensor, Pulse rate sensor, Microphone for sound analysis
-**APIs**: Firebase/GCP/AWS (for data storage and alerts)
-**Machine Learning**: Audio-based disease prediction model
-
-
-
+1. **Frontend**: HTML, CSS, JavaScript, Bootstrap
+2. **Backend**: Python (Flask/Django)
+3. **Database**: MySQL/MongoDB
+4. **Hardware**: Temperature sensor, Pulse rate sensor, Microphone for sound analysis
+5. **APIs**: Firebase/GCP/AWS (for data storage and alerts)
+6. **Machine Learning**: Audio-based disease prediction model
 
 
 https://github.com/user-attachments/assets/14a7b94d-03f4-4ccc-b35e-122265c39138
