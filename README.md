@@ -1,7 +1,24 @@
-# Respiratory-Diseases
-Predicts Respiratory diseases using audio recordings
+#Healthometer- An Infant Monitoring System
 
+#📌 Overview
 
+Healthometer is a smart health monitoring system designed to track the vital health parameters of infants. It ensures real-time monitoring and early detection of potential health issues, allowing parents and healthcare providers to take timely action.
+
+#📌 Objectives
+1. Integrate temperature, pulse rate, and sound sensors into a single IoT device.
+2. Develop a real-time monitoring system with alerts for caregivers.
+3. Create a cough detection algorithm tailored for infants.
+4. Ensure data privacy and security for infant health data.
+5. Design a user-friendly interface for caregivers to access health data.
+6. To predict respiratory diseases using audio recordings.
+
+#📌 Proposed System
+1. Continuous Monitoring Module
+2. Cough Detection Module
+3. User Interface Module
+4. Data Management Module
+5. Firewall Authentication Module
+6. ML model predicts Respiratory diseases using audio recordings.
 
 
 
